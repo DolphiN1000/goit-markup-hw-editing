@@ -1,4 +1,4 @@
-.modal {
+body.show-modal .modal {
   position: absolute;
   width: calc(100% - 30px);
   height: calc(100% - 30px);
@@ -37,7 +37,7 @@
   }
 }
 
-.backdrop {
+body.show-modal .backdrop {
   position: fixed;
   z-index: 100;
   left: 0;
